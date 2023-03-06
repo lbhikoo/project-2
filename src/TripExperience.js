@@ -1,7 +1,11 @@
 
-
+//Form Post
 function TripExperience() {
-
+    return(
+        <div>
+            
+        </div>
+    )
 
 }
 

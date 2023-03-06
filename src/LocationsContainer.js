@@ -16,13 +16,11 @@ function LocationsContainer() {
     },[]) 
     
    
-   
-    console.log(locations) 
     return (
         <div>
             <Header />
             <TripExperience />
-            <LocationList />
+            <LocationList locations={locations}/>
         </div>
     )
 }

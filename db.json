@@ -3,24 +3,25 @@
       {
           "id": 1,
           "location": "Port-of-Spain, Trinidad & Tobago",
-          "things-todo":"", 
+          "todo":"", 
           "food":"", 
-          "hotel-airbnb": "",
+          "hotel": "",
           "history": ""
       },
       {
           "id": 2,
           "location": "Anchorage, Alaska",
-          "things-todo":"Ride the Rails, Dog Sledding, Northern Lights", 
+          "todo":"Ride the Rails, Dog Sledding, Northern Lights", 
           "food": " Reindeer sausage, Seafood, Berries",
-          "hotel-airbnb": "Alyseka Ski Resort, Hotel Captain Cook, Embassy Suites by Hilton Anchorage", 
+          "hotel": "Alyseka Ski Resort, Hotel Captain Cook, Embassy Suites by Hilton Anchorage", 
           "history": "A bit of history" 
       },
       {
           "id": 3,
           "location": "Luxor, Egypt",
-          "things-todo": "Karnak Temple Complex, Luxor Temple, Mummification Museum", 
-          "hotel-airbnb": "فندق سوفيتل ونتر بالاس الأقصر", 
+          "todo": "Karnak Temple Complex, Luxor Temple, Mummification Museum",
+          "food": "", 
+          "hotel": "فندق سوفيتل ونتر بالاس الأقصر", 
           "history": "A bit of history" 
       }
   ]

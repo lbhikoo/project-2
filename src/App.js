@@ -1,10 +1,14 @@
 import LocationsContainer from "./LocationsContainer"
+import { Route } from "react-router-dom";
 
 
 function App() {
   return (
     <div>
-      <LocationsContainer />
+      <Route path="/">
+        <LocationsContainer />
+      </Route>
+      
     </div>
   )
 }
