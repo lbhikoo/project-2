@@ -1,8 +1,12 @@
-
+import LocationsContainer from "./LocationsContainer"
 
 
 function App() {
-  return (null)
+  return (
+    <div>
+      <LocationsContainer />
+    </div>
+  )
 }
 
 export default App;
