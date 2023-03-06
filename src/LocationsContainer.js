@@ -13,21 +13,11 @@ function LocationsContainer() {
        fetch(`http://localhost:3000/locations`)
        .then(r => r.json())
        .then(setLocations)
-       
     },[]) 
     
-    console.log(locations)
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
+    console.log(locations) 
     return (
         <div>
             <Header />
