@@ -1,0 +1,37 @@
+{
+    "locations":
+    [
+        {
+            "id": 1,
+            "location": "Port-of-Spain, Trinidad & Tobago",
+            "things-todo": 
+            "food": 
+            "hotel-airbnb": 
+            "history": 
+        }
+
+        {
+            "id": 2,
+            "location": "Anchorage, Alaska",
+            "things-todo": 
+            "food":
+            "hotel-airbnb": 
+            "history": 
+
+        }
+
+        {
+            "id": 3,
+            "location": "Luxor, Egypt",
+            "things-todo": "Karnak Temple Complex, 
+            "hotel-airbnb": 
+            "history": 
+        }
+    ]
+
+
+
+
+
+
+}
