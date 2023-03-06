@@ -18,7 +18,6 @@ function LocationsContainer() {
    
     return (
         <div>
-            <Header />
             <TripExperience />
             <LocationList locations={locations}/>
         </div>
