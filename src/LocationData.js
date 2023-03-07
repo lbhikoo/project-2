@@ -1,6 +1,6 @@
 
 
-function LocationData({location, todo, food, hotel, history}) {
+function LocationData({location, todo, food, hotel, history, image}) {
 
     return(
         <div>
@@ -9,6 +9,7 @@ function LocationData({location, todo, food, hotel, history}) {
             <p>{food}</p>
             <p>{hotel}</p>
             <p>{history}</p>
+            <img src={image}></img>
         </div>
     )
 
