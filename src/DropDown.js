@@ -1,4 +1,4 @@
-
+import "./DropDown.css"
 
 function DropDown({filterLocations}){
     return (

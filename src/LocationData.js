@@ -1,4 +1,5 @@
 
+import "./LocationData.css"
 
 function LocationData({location, todo, food, hotel, history, image}) {
 
@@ -16,3 +17,4 @@ function LocationData({location, todo, food, hotel, history, image}) {
 }
 
 export default LocationData
+

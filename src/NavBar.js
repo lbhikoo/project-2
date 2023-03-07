@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import "./NavBar.css"
 
 function NavBar() {
     const linkStyles = {
         display: "inline-block",
-        width: "50px",
+        width: "200px",
         padding: "12px",
         margin: "0 6px 6px",
         background: "blue",
@@ -12,9 +13,9 @@ function NavBar() {
       };
 
     return (
-        <div>
+        <div className="navbar">
             <NavLink
-                to="/home"
+                to="/header"
                 exact
                 style={linkStyles}
                 activeStyle={{
