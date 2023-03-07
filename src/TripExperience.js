@@ -1,12 +1,21 @@
-import {useState} from "react"
+import {useState, useEffect} from "react"
+import NewComments from "./NewComments"
 
 //Form
 function TripExperience() {
     const [comment, setComment] = useState('')
+    const [newComment, setNewComment] = useState('')
 
     function handleComment(e) {
         setComment(e.target.value)
     }
+
+
+    useEffect(() => {
+        fetch('http://localhost:3000/Comments')
+        .then(r=> r.json())
+        .then(setNewComment)
+    },[])     
 
     function handleSubmit(e) {
         e.preventDefault()
@@ -14,7 +23,6 @@ function TripExperience() {
         const newRating = {
             comment
         }
-        console.log(newRating)
     
         //How are we going to render these comments to the page?
         //Do we need to fetch the comments that are already in the database?
@@ -31,6 +39,7 @@ function TripExperience() {
     return (
         <div className="new-comment-form">
             <h2>New Rating</h2>
+            <NewComments newComment={newComment}/>
             <form onSubmit={ handleSubmit } >
                 <input onChange={ handleComment } type="text" name="name" 
                 placeholder="Comments" />
