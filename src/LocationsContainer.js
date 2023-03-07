@@ -9,7 +9,21 @@ function LocationsContainer() {
    
    
    const [locations, setLocations] = useState([])
+
+   const [locationDropDown, setLocationDropDown] = useState('')
+
+   const myFilter = filteredLocation => {
+    if (filteredLocation.location.includes(locationDropDown)) {
+      return true
+    }
+}
    
+    const locationList = locations.filter(myFilter)
+
+    const changeLocation = newLocation => {
+        setLocationDropDown(newLocation)
+      }
+
    useEffect(() => {
        fetch(`http://localhost:3000/locations`)
        .then(r => r.json())
@@ -19,9 +33,9 @@ function LocationsContainer() {
    
     return (
         <div>
-            <DropDown />
+            <DropDown filterLocations= {changeLocation}/>
             <TripExperience />
-            <LocationList locations={locations}/>
+            <LocationList locations={locationList}/>
         </div>
     )
 }

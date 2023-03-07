@@ -1,6 +1,8 @@
-function DropDown(){
+
+
+function DropDown({filterLocations}){
     return (
-        <select id="dropdown">
+        <select onChange={(e) => {filterLocations(e.target.value)}} id="dropdown">
             <option value="Locations">Locations</option>
             <option value="Trinidad">Trinidad</option>
             <option value="Egypt">Egypt</option>
