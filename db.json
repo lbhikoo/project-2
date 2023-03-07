@@ -1,30 +1,45 @@
 {
   "locations": [
-      {
-          "id": 1,
-          "location": "Port-of-Spain, Trinidad & Tobago",
-          "todo":"Tobago, Hiking, Tours, Carnival, Nature & Wildlife, Cuisine, Beachs, Festival & Culture, Sites & Attractions, Sports, Yachting", 
-          "food":"Doubles, Roti, Fried Chicken, Curry crab and Dumplings, Sunday Lunch, Barbecue, Chinese, Gyros, Corn Soup, and Bake and Shark", 
-          "hotel": "Trinidad Hotels: Hyatt Regency, Holiday Inn, Court Yard, Vacation Homes",
-          "history": "A bit of history",
-          "image": "https://www.tripsavvy.com/thmb/Hx_-Iu_330SMnDTcWqs0ajRW1IY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-rh526-653-5b54f08b46e0fb00370f2c57.jpg"
-      },
-      {
-          "id": 2,
-          "location": "Anchorage, Alaska",
-          "todo":"Ride the Rails, Dog Sledding, Northern Lights", 
-          "food": " Reindeer sausage, Seafood, Berries",
-          "hotel": "Alyseka Ski Resort, Hotel Captain Cook, Embassy Suites by Hilton Anchorage", 
-          "history": "A bit of history",
-          "image": "https://live.staticflickr.com/1602/26524790706_a4833d6c91_b.jpg"
-      },
-      {
-          "id": 3,
-          "location": "Luxor, Egypt",
-          "todo": "Karnak Temple Complex, Luxor Temple, Mummification Museum",
-          "food": "Fun and Ta’meya (Fava Beans and Falafel), Mulukhiya, Koshary (traditional Egyptian pasta dish, and Kebob and Kofta (traditional meat dish)", 
-          "hotel": "فندق سوفيتل ونتر بالاس الأقصر", 
-          "history": "A bit of history",
-          "image": "https://images.squarespace-cdn.com/content/v1/590afb225016e10ca7f8f8b9/1494422120407-PCQ856O8QJZVJ4Z2VF1F/iStock-531252132.jpg"
-}]
+    {
+      "id": 1,
+      "location": "Port-of-Spain, Trinidad & Tobago",
+      "todo": "Tobago, Hiking, Tours, Carnival, Nature & Wildlife, Cuisine, Beachs, Festival & Culture, Sites & Attractions, Sports, Yachting",
+      "food": "Doubles, Roti, Fried Chicken, Curry crab and Dumplings, Sunday Lunch, Barbecue, Chinese, Gyros, Corn Soup, and Bake and Shark",
+      "hotel": "Trinidad Hotels: Hyatt Regency, Holiday Inn, Court Yard, Vacation Homes",
+      "history": "A bit of history",
+      "image": "https://www.tripsavvy.com/thmb/Hx_-Iu_330SMnDTcWqs0ajRW1IY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-rh526-653-5b54f08b46e0fb00370f2c57.jpg"
+    },
+    {
+      "id": 2,
+      "location": "Anchorage, Alaska",
+      "todo": "Ride the Rails, Dog Sledding, Northern Lights",
+      "food": " Reindeer sausage, Seafood, Berries",
+      "hotel": "Alyseka Ski Resort, Hotel Captain Cook, Embassy Suites by Hilton Anchorage",
+      "history": "A bit of history",
+      "image": "https://live.staticflickr.com/1602/26524790706_a4833d6c91_b.jpg"
+    },
+    {
+      "id": 3,
+      "location": "Luxor, Egypt",
+      "todo": "Karnak Temple Complex, Luxor Temple, Mummification Museum",
+      "food": "Fun and Ta’meya (Fava Beans and Falafel), Mulukhiya, Koshary (traditional Egyptian pasta dish, and Kebob and Kofta (traditional meat dish)",
+      "hotel": "فندق سوفيتل ونتر بالاس الأقصر",
+      "history": "A bit of history",
+      "image": "https://images.squarespace-cdn.com/content/v1/590afb225016e10ca7f8f8b9/1494422120407-PCQ856O8QJZVJ4Z2VF1F/iStock-531252132.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Dakota",
+      "id": 1
+    },
+    {
+      "comment": "Dakota",
+      "id": 2
+    },
+    {
+      "comment": "Dakota",
+      "id": 3
+    }
+  ]
 }
