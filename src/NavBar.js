@@ -14,7 +14,7 @@ function NavBar() {
     return (
         <div>
             <NavLink
-                to="/"
+                to="/locat"
                 exact
                 style={linkStyles}
                 activeStyle={{
@@ -42,6 +42,16 @@ function NavBar() {
                 }}
             >
                 About
+            </NavLink>
+            <NavLink
+                to="/travelexperience"
+                exact
+                style={linkStyles}
+                activeStyle={{
+                background: "darkblue",
+                }}
+            >
+                Ratings
             </NavLink>
             </div>
   );

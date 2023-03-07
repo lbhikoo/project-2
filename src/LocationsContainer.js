@@ -1,5 +1,4 @@
 import {useEffect, useState} from "react"
-import Header from "./Header"
 import TripExperience from "./TripExperience"
 import LocationList from "./LocationList"
 import DropDown from "./DropDown"
