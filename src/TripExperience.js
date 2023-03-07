@@ -1,9 +1,17 @@
 
-//Form Post
+import {useState} from "react"
 
 //Form Post
 function TripExperience() {
-    // 
+    const [comment, setComment] = useState('')
+
+    function handleComment(e) {
+        setComment(e.target.value)
+    }
+
+    function handleSubmit(e) {
+        e.preventDefault()
+    }
     // const newRating = {
         // comments
     //    
@@ -20,16 +28,16 @@ function TripExperience() {
     //   e.target.reset()
     // 
     // 
-    // return (
-        // <div className="new-plant-form">
-        {/* <h2>New Rating</h2> */}
-        {/* <form onSubmit={ handleSubmit } > */}
-          {/* <input onChange={ handleName } type="text" name="name"  */}
-            // placeholder="Rate Us!" />
-        {/* </form> */}
-       {/* </div> */}
-    // )
-// 
+    console.log("Hi")
+    return (
+        <div className="new-rating-form">
+            <h2>New Rating</h2>
+            <form onSubmit={ handleComment } >
+                <input onChange={ handleComment } type="text" name="name" 
+                placeholder="Rate Us!" />
+            </form>
+       </div>
+    ) 
  }
-// 
+
  export default TripExperience

@@ -1,5 +1,4 @@
 import {useEffect, useState} from "react"
-import TripExperience from "./TripExperience"
 import LocationList from "./LocationList"
 import DropDown from "./DropDown"
 
@@ -33,7 +32,6 @@ function LocationsContainer() {
     return (
         <div>
             <DropDown filterLocations= {changeLocation}/>
-            <TripExperience />
             <LocationList locations={locationList}/>
         </div>
     )

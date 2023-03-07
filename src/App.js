@@ -4,7 +4,7 @@ import Header from "./Header"
 import About from "./About"
 import NavBar from "./NavBar"
 import TripExperience from "./TripExperience"
-import LocationList from "./LocationList";
+import LocationsContainer from "./LocationsContainer"
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <div>
       <NavBar />
       <Switch>
-        <Route path="/LocationsList">
-          <LocationList />
+        <Route path="/locations">
+          <LocationsContainer />
         </Route>
         <Route path= "/About">
           <About />
@@ -27,7 +27,6 @@ function App() {
           <TripExperience />
         </Route>
       </Switch>
-      
     </div>
   )
 }

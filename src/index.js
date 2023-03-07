@@ -1,27 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import NavBar from "./NavBar"
-import Header from "./Header"
-import LocationsContainer from "./LocationsContainer"
-import About from "./About"
+import { BrowserRouter } from "react-router-dom";
+import App from "./App"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <NavBar />
-    <Switch>
-      <Route exact path="/">
-        <Header />
-      </Route>
-      <Route exact path="/Locations">
-        <LocationsContainer />
-      </Route>
-      <Route exact path="/About">
-        <About />
-      </Route>
-    </Switch>
+    <App />
   </BrowserRouter>
     
 );
