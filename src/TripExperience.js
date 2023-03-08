@@ -4,7 +4,7 @@ import NewComments from "./NewComments"
 //Form
 function TripExperience() {
     const [comment, setComment] = useState('')
-    const [newComment, setNewComment] = useState('')
+    const [newComment, setNewComment] = useState([])
 
     function handleComment(e) {
         setComment(e.target.value)
@@ -39,12 +39,12 @@ function TripExperience() {
     return (
         <div className="new-comment-form">
             <h2>New Rating</h2>
-            <NewComments newComment={newComment}/>
             <form onSubmit={ handleSubmit } >
                 <input onChange={ handleComment } type="text" name="name" 
                 placeholder="Comments" />
                 <button type="submit">Submit</button>
             </form>
+            <NewComments newComment={newComment}/>
        </div>
     ) 
  }
