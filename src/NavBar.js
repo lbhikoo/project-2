@@ -35,16 +35,6 @@ function NavBar() {
                 Locations
             </NavLink>
             <NavLink
-                to="/about"
-                exact
-                style={linkStyles}
-                activeStyle={{
-                background: "darkblue",
-                }}
-            >
-                About
-            </NavLink>
-            <NavLink
                 to="/TripExperience"
                 exact
                 style={linkStyles}
