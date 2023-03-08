@@ -42,7 +42,7 @@ function TripExperience() {
     //what to do?
     return (
         <div className="new-comment-form">
-            <h2>New Rating</h2>
+            <h2>What're some of your favorite locations and why?</h2>
             <form onSubmit={ handleSubmit } >
                 <input onChange={ handleComment } type="text" name="name" 
                 placeholder="Comments" />
