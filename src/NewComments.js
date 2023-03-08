@@ -7,7 +7,7 @@ function NewComments({newComment}) {
     const newComments = newComment.map((commentObj) => 
         <CommentMade 
             key ={commentObj.id} 
-            comments = {commentObj}
+             {...commentObj}
         />)
 
     return (

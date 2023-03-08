@@ -1,11 +1,11 @@
 
 
 
-function CommentMade({comments}){
-    console.log(comments)
+function CommentMade({comment}){
+    console.log(comment)
     return(
         <div>
-            <h1>hihihii</h1>
+            <h1>{comment}</h1>
         </div>
     )
 }

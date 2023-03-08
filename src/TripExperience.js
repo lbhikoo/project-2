@@ -12,7 +12,7 @@ function TripExperience() {
 
 
     useEffect(() => {
-        fetch('http://localhost:3000/Comments')
+        fetch('http://localhost:3000/comments')
         .then(r=> r.json())
         .then(setNewComment)
     },[])     
@@ -26,7 +26,7 @@ function TripExperience() {
     
         //How are we going to render these comments to the page?
         //Do we need to fetch the comments that are already in the database?
-    fetch( `http://localhost:3000/Comments`, {
+    fetch( `http://localhost:3000/comments`, {
         method: 'POST', 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify( newRating )
