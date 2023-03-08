@@ -5,11 +5,15 @@ import NewComments from "./NewComments"
 function TripExperience() {
     const [comment, setComment] = useState('')
     const [newComment, setNewComment] = useState([])
+    console.log(newComment)
 
     function handleComment(e) {
         setComment(e.target.value)
     }
 
+    const handleNewComment = newComments => {
+        setNewComment( [ ...newComment, newComments ] )
+      }
 
     useEffect(() => {
         fetch('http://localhost:3000/comments')
@@ -32,7 +36,7 @@ function TripExperience() {
         body: JSON.stringify( newRating )
       } )
         .then( r => r.json() )
-        .then()
+        .then(handleNewComment)
       e.target.reset()
     }
     //what to do?
