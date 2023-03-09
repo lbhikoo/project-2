@@ -1,4 +1,5 @@
 import LocationData from "./LocationData"
+import "./LocationsList.css"
 
 function LocationList({locations}) {
 
@@ -12,7 +13,7 @@ function LocationList({locations}) {
 
 
     return (
-        <div>
+        <div className="locations">
             {sweetLocations}
         </div>
     )

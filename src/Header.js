@@ -5,8 +5,9 @@ function Header() {
     return(
         
         <div>
-            <h1>Travel Mania!</h1>
-            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbmV8ZW58MHx8MHx8&w=1000&q=80"  alt=""></img>
+            <h1 className="greetings">GREETINGS FROM:</h1>
+            <h2 className= "travel">Travel Mania!</h2>
+            <img src="https://media.gettyimages.com/id/180462449/vector/seamless-vector-postage-stamps-wallpaper.jpg?s=612x612&w=0&k=20&c=ILERMssXhxbb5GMvwG9e3nRnweuRLJXuNQ8CR0cqLEA="  alt=""></img>
         </div>
     )
 }

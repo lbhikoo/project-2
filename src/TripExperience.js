@@ -47,7 +47,7 @@ function TripExperience() {
             <form onSubmit={ handleSubmit } >
                 <input onChange={ handleComment } type="text" name="name" 
                 placeholder="Comments" />
-                <button type="submit">Submit</button>
+                <button className= "button" type="submit">Submit</button>
             </form>
             <NewComments newComment={newComment}/>
        </div>

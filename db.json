@@ -30,8 +30,12 @@
   ],
   "comments": [
     {
-      "comment": "Working?",
+      "comment": "",
       "id": 1
+    },
+    {
+      "comment": "",
+      "id": 2
     }
   ]
 }

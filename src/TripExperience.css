@@ -4,3 +4,23 @@
 form {
     text-align:center
 }
+
+  
+input:focus {
+    width: 50%;
+  }
+
+input:hover {
+    width: 700px
+}
+
+input {
+    width: 500px;
+    height: 30px
+}
+
+.button:active {
+    box-shadow: 0 3px black;
+    transform: translateY(4px);
+  }
+

@@ -18,15 +18,16 @@ function LocationData({location, todo, food, hotel, history, image}) {
         <div className= "data">
             <h1>{location}</h1>
             <h3>Things to do</h3>
-            <div>{splitterTool(todo)}</div>
-            <h3>Food for the soul</h3>
-            <div>{splitterTool(food)}</div>
+            <div className="todo">{splitterTool(todo)}</div>
+            <h3>Food to eat</h3>
+            <div className="food">{splitterTool(food)}</div>
             <h3>Hotels to stay at</h3>
-            <p>{splitterTool(hotel)}</p>
+            <div className= "hotel">{splitterTool(hotel)}</div>
             <h3>History</h3>
-            <p>{splitterTool(history)}</p>
+            <div className="history">{splitterTool(history)}</div>
             <img style={{ width: 900, height: 600 }} alt='pictures' src={image}></img>
         </div>
+
     )
 
 }
