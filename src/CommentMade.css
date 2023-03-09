@@ -1,8 +1,9 @@
+
+
 .comment {
     text-align: center;
-    /* height: 25px; */
-}
-
-.comments {
-    background-color: black;
+    border-style: groove;
+    margin-top: 15px;
+    margin-left: 500px;
+    margin-right: 500px
 }
