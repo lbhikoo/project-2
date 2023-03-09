@@ -10,11 +10,10 @@ function LocationsContainer() {
 
    const [locationDropDown, setLocationDropDown] = useState('')
 
-   const myFilter = filteredLocation => {
-    if (filteredLocation.location.includes(locationDropDown)) {
-      return true
-    }
-}
+   const myFilter = filteredLocation => 
+    filteredLocation.location.includes(locationDropDown) || locationDropDown === 'All'
+    
+
    
     const locationList = locations.filter(myFilter)
 
@@ -27,12 +26,17 @@ function LocationsContainer() {
        .then(r => r.json())
        .then(setLocations)
     },[]) 
+
+    
+ 
     
    
     return (
         <div>
+            
             <DropDown filterLocations= {changeLocation}/>
             <LocationList locations={locationList}/>
+            
         </div>
     )
 }

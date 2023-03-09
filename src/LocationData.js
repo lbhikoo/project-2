@@ -9,6 +9,11 @@ function LocationData({location, todo, food, hotel, history, image}) {
         return pElements
     }
 
+
+   
+
+
+
     return(
         <div>
             <h1>{location}</h1>
