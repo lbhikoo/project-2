@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react"
 import NewComments from "./NewComments"
+import "./TripExperience.css"
 
 //Form
 function TripExperience() {
@@ -42,7 +43,7 @@ function TripExperience() {
     //what to do?
     return (
         <div className="new-comment-form">
-            <h2>What're some of your favorite locations and why?</h2>
+            <h3 className="h3">What're some of your favorite locations and why?</h3>
             <form onSubmit={ handleSubmit } >
                 <input onChange={ handleComment } type="text" name="name" 
                 placeholder="Comments" />

@@ -19,7 +19,7 @@ function LocationData({location, todo, food, hotel, history, image}) {
             <h1>{location}</h1>
             <h3>Things to do</h3>
             <div>{splitterTool(todo)}</div>
-            <h3>Food to eat</h3>
+            <h3>Food for the soul</h3>
             <div>{splitterTool(food)}</div>
             <h3>Hotels to stay at</h3>
             <p>{splitterTool(hotel)}</p>
