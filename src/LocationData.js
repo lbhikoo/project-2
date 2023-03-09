@@ -15,7 +15,7 @@ function LocationData({location, todo, food, hotel, history, image}) {
 
 
     return(
-        <div>
+        <div className= "data">
             <h1>{location}</h1>
             <h3>Things to do</h3>
             <div>{splitterTool(todo)}</div>

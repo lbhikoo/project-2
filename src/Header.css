@@ -3,8 +3,12 @@ h1 {
     text-align: center;
 }
 
- body {
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bsr.org%2Fen%2Findustries%2Ftravel-and-tourism&psig=AOvVaw2Lv5d9OxP8rvdzKd9YLuOh&ust=1678306962288000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJCsn-TSyv0CFQAAAAAdAAAAABAT); 
+img {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+
 }
 
 
