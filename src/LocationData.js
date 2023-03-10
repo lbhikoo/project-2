@@ -25,7 +25,7 @@ function LocationData({location, todo, food, hotel, history, image}) {
             <div className= "hotel">{splitterTool(hotel)}</div>
             <h3>History</h3>
             <div className="history">{splitterTool(history)}</div>
-            <img style={{ width: 900, height: 600 }} alt='pictures' src={image}></img>
+            <img className= "locs" style={{ width: 900, height: 600 }} alt='pictures' src={image}></img>
         </div>
 
     )

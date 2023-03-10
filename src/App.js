@@ -6,11 +6,12 @@ import TripExperience from "./TripExperience"
 import LocationsContainer from "./LocationsContainer"
 
 
+
 function App() {
 
 
   return (
-    <div>
+    <div className= "background">
       <NavBar />
       <Switch>
         <Route path="/locations">

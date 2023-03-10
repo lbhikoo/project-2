@@ -21,10 +21,10 @@
     {
       "id": 3,
       "location": "Luxor, Egypt",
-      "todo": "Karnak Temple Complex, Luxor Temple, Mummification Museum",
-      "food": "Fun and Ta’meya (Fava Beans and Falafel), Mulukhiya, Koshary (traditional Egyptian pasta dish, and Kebob and Kofta (traditional meat dish)",
-      "hotel": "فندق سوفيتل ونتر بالاس الأقصر",
-      "history": "A bit of history",
+      "todo": "Karnak Temple Complex: The Karnak Temple is a massive temple complex to which dozens of pharaohs added their own constructions. The immense size of the complex, as well as its various architectural, artistic, and linguistic details make it an invaluable historical site and resource for understanding the evolution of ancient Egypt, and thus its conservation is critical., Luxor Temple: Constructed over hundreds of years by Amenhotep III, Ramses II, Tutankhamun, and other pharaohs, Luxor Temple was the largest and most significant religious center in ancient Egypt. Today, remains of this vast complex include the colossal Great Colonnade Hall, almost 61 meters long, with 28 twenty-one-foot-high columns, its decoration largely undertaken by Tutankhamun around 1330 B.C., Mummification Museum: Mummification museum in Luxor (ancient Thebes), intended to provide an understanding of the process to preserve the body. The ancient Egyptians not only applied embalming to dead humans but also to many animals (Cats, dogs, crocodiles…. etc.). God Anubis(the Jackal) was the god of embalming and mummification.",
+      "food": "Foul Mudammas/Medames and Taameya (Fava Beans Stew and Falafel): Foul Medames is a slow-cooked fava beans stew. It is the most popular breakfast food in Egypt in most families. Koshary (Mixture of Rice, Macaroni, and Lentils): Koshary is a popular local food that is made of boiled lentils, rice, macaroni, and chickpeas, along with fried onions and a special Egyptian red sauce. Hamam Mahshi (Stuffed Pigeons): The pigeons are first boiled and then stuffed either with spicy rice or grits along with onions and tomato sauce. Then, the pigeons are either deep-fried or baked in the oven. This dish certainly has loads of fat and carbs, but the experience is worth it! ",
+      "hotel": "فندق سوفيتل ونتر بالاس الأقصر, This new hotel in Luxor is known amongst discerning travellers for offering the highest standard of service. It is ideal for both families and couples looking to relax. The hotel offers 30 rooms in total spread over 8 floors. It is air-conditioned and offers a lobby with 24-hour reception, a hotel safe, cloakroom and lift access. Dining facilities also feature. Guests may also like to avail of the room and laundry facilities. Cycle hire is also an option.",
+      "history": "The history of Luxor shows us that the city had a deeply religious nature as it was known to be the city of Amun and later in Egypt new kingdom as the city of the gods where the Karnak temple is the official place for worship as each god had a shrine-like Amun-Re, Mut and many more. The importance of the city grows in the beginning on the 11th dynasty during the early middle kingdom leading to the new kingdom where the city became the capital and a universal hub for all the political, religious, and military aspects in Ancient Egypt.",
       "image": "https://images.squarespace-cdn.com/content/v1/590afb225016e10ca7f8f8b9/1494422120407-PCQ856O8QJZVJ4Z2VF1F/iStock-531252132.jpg"
     }
   ],
@@ -44,6 +44,10 @@
     {
       "comment": "\"St.Thomas is another beautiful Caribbean island that you should go to and add to this website!!!! (FUN FACT, YOU DO NOT NEED A PASSPORT TO TRAVEL TO ST.THOMAS JUST A VALID DRIVERS LICENSE IF YOU ARE IN THE U.S)\"",
       "id": 4
+    },
+    {
+      "comment": "bkjbefjk",
+      "id": 5
     }
   ]
 }

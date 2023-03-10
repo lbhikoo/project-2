@@ -7,7 +7,7 @@ function NavBar() {
         width: "200px",
         padding: "12px",
         margin: "0 6px 6px",
-        background: "blue",
+        background: "#2d1606",
         textDecoration: "none",
         color: "white",
       };
@@ -19,7 +19,7 @@ function NavBar() {
                 exact
                 style={linkStyles}
                 activeStyle={{
-                background: "darkblue", 
+                background: "maroon", 
                 }}
             >
                 Home
@@ -29,7 +29,7 @@ function NavBar() {
                 exact
                 style={linkStyles}
                 activeStyle={{
-                background: "darkblue",
+                background: "maroon",
                 }}
             >
                 Locations
@@ -39,7 +39,7 @@ function NavBar() {
                 exact
                 style={linkStyles}
                 activeStyle={{
-                background: "darkblue",
+                background: "maroon",
                 }}
             >
                 Ratings

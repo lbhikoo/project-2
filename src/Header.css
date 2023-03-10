@@ -3,12 +3,13 @@ h1 {
     text-align: center;
 }
 
-img {
+.pic {
     min-height: 100%;
     min-width: 1024px;
     width: 100%;
     height: auto;
     opacity: 0.2;
+    margin-left: 0%;
 }
 
 .travel {
@@ -21,13 +22,21 @@ img {
 
 .greetings {
     position: absolute;
-  top: 160px;
-  left: 100px;
-  transform: translate(13px, 60px) rotate(-20deg);
+  top: 120px;
+  left: 160px;
+  transform: translate(13px, 60px) rotate(-10deg);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 70px;
+  font-size: 90px;
   font-weight: bolder;
   text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em gray;
 }
 
+.travel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em gray;
+   
+}
 
+    
