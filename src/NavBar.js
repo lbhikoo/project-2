@@ -42,7 +42,7 @@ function NavBar() {
                 background: "maroon",
                 }}
             >
-                Ratings
+                Comments
             </NavLink>
             </div>
   );
